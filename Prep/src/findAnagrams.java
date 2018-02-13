@@ -3,7 +3,7 @@
  */
 public class findAnagrams {
     public static void printAnagrams(String s, String file){
-
+       System.out.println(s +" "+ file);
     }
     public static void main(String[] args){
         if(args.length < 2) System.out.println("Invalid Arguments!");
